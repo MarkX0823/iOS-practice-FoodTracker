@@ -13,6 +13,7 @@
 		CE1479971F95FD8300154209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1479961F95FD8300154209 /* Assets.xcassets */; };
 		CE14799A1F95FD8300154209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1479981F95FD8300154209 /* LaunchScreen.storyboard */; };
 		CE1479A51F95FD8300154209 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1479A41F95FD8300154209 /* FoodTrackerTests.swift */; };
+		CE2F76941F9DDD5100976241 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F76931F9DDD5100976241 /* Meal.swift */; };
 		CE570CD51F98B0000098BF40 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE570CD41F98B0000098BF40 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		CE1479A01F95FD8300154209 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1479A41F95FD8300154209 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		CE1479A61F95FD8300154209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2F76931F9DDD5100976241 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		CE570CD41F98B0000098BF40 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 			children = (
 				CE14798F1F95FD8300154209 /* AppDelegate.swift */,
 				CE1479911F95FD8300154209 /* ViewController.swift */,
+				CE2F76931F9DDD5100976241 /* Meal.swift */,
 				CE570CD41F98B0000098BF40 /* RatingControl.swift */,
 				CE1479931F95FD8300154209 /* Main.storyboard */,
 				CE1479961F95FD8300154209 /* Assets.xcassets */,
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2F76941F9DDD5100976241 /* Meal.swift in Sources */,
 				CE1479921F95FD8300154209 /* ViewController.swift in Sources */,
 				CE570CD51F98B0000098BF40 /* RatingControl.swift in Sources */,
 				CE1479901F95FD8300154209 /* AppDelegate.swift in Sources */,
