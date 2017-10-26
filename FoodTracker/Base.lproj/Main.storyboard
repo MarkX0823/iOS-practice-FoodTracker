@@ -48,6 +48,7 @@
                                     <outlet property="nameLabel" destination="4ug-nV-qH7" id="Mbw-HH-78p"/>
                                     <outlet property="photoImageView" destination="YVf-ba-3Fl" id="HoV-gF-VuG"/>
                                     <outlet property="ratingControl" destination="juY-37-Xep" id="svl-bC-oPO"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="Kcl-ai-gh9"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -76,8 +77,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="pxf-M1-J7g">
-                                <rect key="frame" x="8" y="84" width="359" height="410"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="pxf-M1-J7g">
+                                <rect key="frame" x="8" y="84" width="359" height="416"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bfy-7P-y8e">
                                         <rect key="frame" x="0.0" y="0.0" width="359" height="30"/>
@@ -95,8 +96,8 @@
                                             <outletCollection property="gestureRecognizers" destination="Sud-6z-8hi" appends="YES" id="sD4-PM-ZSu"/>
                                         </connections>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vPc-3l-Scd" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
-                                        <rect key="frame" x="53.5" y="366" width="252" height="44"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vPc-3l-Scd" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
+                                        <rect key="frame" x="53.5" y="366" width="252" height="50"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="size" keyPath="starSize">
                                                 <size key="value" width="44" height="44"/>
@@ -147,7 +148,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1375" y="134"/>
+            <point key="canvasLocation" x="1396" y="134"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kzy-ke-VUT">
@@ -183,10 +184,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vvZ-U0-P64" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="518.39999999999998" y="133.13343328335833"/>
+            <point key="canvasLocation" x="500" y="515"/>
         </scene>
     </scenes>
     <resources>
         <image name="defaultPhoto" width="540" height="540"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Kcl-ai-gh9"/>
+    </inferredMetricsTieBreakers>
 </document>
